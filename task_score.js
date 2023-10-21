@@ -7,8 +7,14 @@ let total = taskScoreIntroduction + taskScoreGit + taskScoreJS;
 console.log(total);
 console.log(total / 4);
 
-let myName = "Slava";
-let mySurname = "Vorobyov";
+const myName = "Slava";
+const mySurname = "Vorobyov";
 
-console.log(`${mySurname} ${myName} gets ${total} for all tasks`);
-console.log(`${mySurname} ${myName} gets ${total / 4} average for all tasks`);
+//console.log(`${mySurname} ${myName} gets ${total} for all tasks`);
+//console.log(`${mySurname} ${myName} gets ${total / 4} average for all tasks`);
+
+console.log(myName.length);
+console.log(`${myName.slice(0, 1)}. ${mySurname} gets ${total} for all tasks`);
+console.log(
+  `${myName.slice(0, 1)}. ${mySurname} gets ${total / 4} for average tasks`
+);
